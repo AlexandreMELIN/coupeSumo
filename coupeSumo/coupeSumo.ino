@@ -86,6 +86,7 @@ void loop() {
   } else { // white detected
     moveBackward();
   }
+  delay(250);
 }
 
 void moveBackward() {
